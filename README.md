@@ -1,7 +1,7 @@
-# Analytics Assignment ( BE ) for Recruitment July 2020
-Repo to contain instructions/files for a small BE assignment for CFR Analytics Full Stack Role.
+# BetterWorks Analytics assessment
 
-## Goal
+## Problem
+
 You are asked to implement the BE so as to support a dashboard as shown in this image https://drive.google.com/file/d/12Zq9aBHvnwiZJt-QU6f6WXu1rYJD-JEn/view .
 
 Your implementation must focus on just the Objectives on track card and the details section it shows on clicking. The Objectives recently updated and Placeholder KPIs can be ignored totally.
@@ -17,13 +17,13 @@ Clicking on a section in the Objectives on track will show the teams within that
 #### Nice to haves ( as applicable to the above tasks ) ! :
 
 * Schema diagram for the transformation in DB ( if not the transformation itself ! )
-* Tests for the BE
 * Documentation for the API
+* Code being production ready, _however you define that_
 
 Please include a README.md file in your Github repo detailing the following:
 
 * What has been completed
-* What is not completed
+* What is not completed/What would you do if you had more time
 * Deployment steps
 * Known bugs and limitations
 
