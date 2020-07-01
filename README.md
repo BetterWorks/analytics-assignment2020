@@ -1,4 +1,4 @@
-# analytics-assignment2020
+# Analytics Assignment ( BE ) for Recruitment July 2020
 Repo to contain instructions/files for a small BE assignment for CFR Analytics Full Stack Role.
 
 ## Goal
@@ -29,10 +29,10 @@ Please include a README.md file in your Github repo detailing the following:
 
 ### Evaluation criteria
 
-Transformed schema design ( first task if applicable )
-Restful Implementation of API ( second task if applicable )
-How production ready is your code
-Adherence of the implementation to the design
+* Transformed schema design ( first task if applicable )
+* Restful Implementation of API ( second task if applicable )
+* How production ready is your code
+* Adherence of the implementation to the design
 
 ## Assignment Guideline for DB transformation
 This is a minimalistic example. When transforming the transactional data ( provided ) to an analytical one, please keep in mind that tables may have much more information than is presented in the scripts. They could have additional fields as well. It will be beneficial to align the transformation to achieve the FE dashboard's requirements as seen in the screenshots.
