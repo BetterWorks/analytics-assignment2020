@@ -43,11 +43,12 @@ INSERT INTO OBJECTIVES VALUES (1,1, 'Improve HR Processes'),(2,2, 'Raise partici
 CREATE TABLE KEYRESULTS (
   Keyresult_id varchar(12) NOT NULL,
   Objective_Id varchar(12) DEFAULT NULL,
+  Keyresult_text varchar(100) DEFAULT NULL,
   Status varchar(12) DEFAULT NULL,
   Due_date date DEFAULT NULL, 
   PRIMARY KEY (Keyresult_id),
   CONSTRAINT Objective_Id FOREIGN KEY (Objective_Id) REFERENCES OBJECTIVES (Objective_Id)
 );
 
-INSERT INTO KEYRESULTS VALUES (1,1,'Pending', '2020-07-1'),(2,1,'Complete', '2020-07-1'),(3,1,'Complete', '2020-07-1');
-INSERT INTO KEYRESULTS VALUES (4,2,'Complete', '2020-07-1'),(5,2,'Complete', '2020-07-1'),(6,2,'Complete', '2020-07-1');
+INSERT INTO KEYRESULTS VALUES (1,1,'Set up onboarding process','Pending', '2020-07-1'),(2,1,'Conduct 3 Surveys','Complete', '2020-07-1'),(3,1,'Implement organization chart','Complete', '2020-07-1');
+INSERT INTO KEYRESULTS VALUES (4,2,'Draw up survey participation incentive plan','Complete', '2020-07-1'),(5,2,'Create Survey non-participation list','Complete', '2020-07-1'),(6,2,'Speak with survey vendor regarding employee complaints','Complete', '2020-07-1');
